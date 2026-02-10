@@ -5,7 +5,7 @@ permissions:
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # roda a cada 12 horas
+    - cron: "0 */4 * * *" # roda a cada 4 horas
   workflow_dispatch: # permite rodar manualmente
   push:
     branches:
